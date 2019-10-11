@@ -1,14 +1,19 @@
 import requests
+import uuid
+
+rand_id = uuid.uuid1()
+print(rand_id)
 
 base_url = 'https://run.appstax.io/rest/369b58a7-bc4e-4fde-b1cb-c0b5023d48ce/master'
 body = {
   "customer": {
-    "id": "00000000-4f1d-f03a-0000-000000000065"
+    "id": "00000000-4f1d-f03a-0000-000000000065",
+    # "id": +rand_id,
   },
   "deliveryAddress": {
     "id": "00000000-554d-cd2b-0000-000000000065"
   },
-  "id": "00000000-6310-16b3-0000-000000000065",
+  "id": str(rand_id),
   "products": [
     {
       "description": "Alexey",
