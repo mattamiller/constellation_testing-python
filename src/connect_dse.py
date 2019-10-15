@@ -1,5 +1,8 @@
 from dse.cluster import Cluster
 from dse.auth import PlainTextAuthProvider
+import sys
+
+print(sys.version)
 
 cloud_config = {
     'secure_connect_bundle': '/Users/matthew.miller/cassandra/secure-connect-mattsdb2.zip'

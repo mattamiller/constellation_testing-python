@@ -1,5 +1,8 @@
 from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
+import sys
+
+print(sys.version)
 
 cluster = Cluster(
     cloud={
@@ -14,3 +17,4 @@ if row:
     print(row[0])
 else:
     print("An error occurred.")
+
