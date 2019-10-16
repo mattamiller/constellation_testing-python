@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d489555-d816-4837-88a0-ae1c9fb10308" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/writingAppstaxEcommerce.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/getOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/getOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadingAppstaxEcommerce.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/postAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/postAccount.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/getOrder.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReadingAppstaxEcommerce.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="629">
+              <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -30,11 +31,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/postAccount.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/writingAppstaxEcommerce.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="598">
+              <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +71,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <replaceStrings>
       <replace />
@@ -82,6 +93,8 @@
         <option value="$PROJECT_DIR$/src/connect_dse.py" />
         <option value="$PROJECT_DIR$/src/postAccount.py" />
         <option value="$PROJECT_DIR$/src/getOrder.py" />
+        <option value="$PROJECT_DIR$/src/ReadingAppstaxEcommerce.py" />
+        <option value="$PROJECT_DIR$/src/writingAppstaxEcommerce.py" />
       </list>
     </option>
   </component>
@@ -140,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getOrder">
+  <component name="RunManager" selected="Python.writingAppstaxEcommerce">
     <configuration name="connect_cassandra" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="constellation_testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +208,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/getOrder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/readingAppstaxEcommerce.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,8 +238,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="writingAppstaxEcommerce" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="constellation_testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/writingAppstaxEcommerce.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.writingAppstaxEcommerce" />
         <item itemvalue="Python.getOrder" />
         <item itemvalue="Python.getAccountInfo" />
         <item itemvalue="Python.postAccount" />
@@ -298,24 +333,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/postOrder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.python-version">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/postAccount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/getAccountInfo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -327,10 +346,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/getOrder.py">
+    <entry file="file://$PROJECT_DIR$/src/postAccount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="21" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReadingAppstaxEcommerce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/postOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/writingAppstaxEcommerce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

@@ -1,6 +1,5 @@
 import requests
 import pprint
-import json
 
 
 # define functions
@@ -24,14 +23,16 @@ def main():
     while True:
         order_id = input("Order ID:")
         data = getOrderById(order_id, endpoint)
-        cust_name = getAccountInfo(cust_email, endpoint)
         cust_email = data["data"]["order"]["customer"]["email"]
+        cust_name = getAccountInfo(cust_email, endpoint)
+
 
         pp.pprint(data)
         print('Customer Name: ' + cust_name)
         print('Customer Email: ' + cust_email)
         print('\n------------------')
 
+    # print(getAccountInfo("foo@spacefleet.gov",endpoint))
 
 if __name__ == '__main__':
     main()
