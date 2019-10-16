@@ -9,7 +9,7 @@ connect_cassandra.py & connect_dse.py
 For now this is just the code snippet from the DSE documentation for how to connect via the python driver.  Docs Here: 
 https://helpdocs.datastax.com/aws/dscloud/apollo/dscloudPythonDriver.html#dscloudPythonDriver
   
-  For the python setup, it is recommended to use 'pyenv' to manage the different versions of python on your machine without changing the system level python.  Docs here: 
+  For the python setup, it is recommended to use 'pyenv' to manage the different versions of python on your machine without changing the system level python.  To understand pyenv better, read here: 
   
   https://realpython.com/intro-to-pyenv/#why-use-pyenv
   
